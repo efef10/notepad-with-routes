@@ -28,7 +28,7 @@ class Note extends React.Component<INoteProps,INoteState>{
             <div className='noteView'>
                 <h3>{this.props.note}</h3>
                 <p>{this.state.content.substr(0,30)+(this.state.content.length>30?"...":"")}</p>
-                <Link to={'/edit/'+this.props.note}><button onClick={this.myClicked}>view full note</button></Link>
+                <Link to={'/edit/'+this.props.note}><button onClick={this.myClicked}>view full note ></button></Link>
             </div>
         )
     }

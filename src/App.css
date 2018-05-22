@@ -48,11 +48,15 @@ textarea{
   /*flex-direction: row;*/
 }
 .noteView{
-  border:3px solid gray;
-  width:35%;
-  margin-left:30%;
-  margin-bottom: 30px;
-  padding:10px;
+   border:3px solid gray;
+   width:35%;
+   margin-left:30%;
+   margin-bottom: 30px;
+   padding:10px;
+ }
+
+.noteView h3{
+  margin-top: 0;
 }
 
 .view h3{
