@@ -1,0 +1,62 @@
+.links{
+  display:flex;
+  flex-direction:row;
+  background-color: black;
+
+}
+li{
+  list-style-type: none;
+  margin:10px;
+  color:white;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+.container {
+  background-color: lightgray;
+  width: 50%;
+  display: inline-block;
+  height: 100px;
+  /*margin: auto;*/
+  text-align: center;
+  margin-left:25%;
+  /*margin-top:3%;*/
+  border-radius: 10px;
+}
+h1{
+  padding: auto;
+  /*margin-top: 10%;*/
+}
+
+textarea{
+  width:70%;
+  margin:2% 15%;
+  height:400px;
+  font-size: 25px;
+}
+
+#addBtn{
+  margin:0 45%;
+  width:10%;
+  height:30px;
+  font-weight: bold;
+}
+.myNotes{
+  /*display:flex;*/
+  /*flex-direction: row;*/
+}
+.noteView{
+  border:3px solid gray;
+  width:35%;
+  margin-left:30%;
+  margin-bottom: 30px;
+  padding:10px;
+}
+
+.view h3{
+  text-align: center;
+  font-size:30px;
+  margin-bottom: 0;
+}
